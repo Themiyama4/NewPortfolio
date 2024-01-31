@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
+
+
+.Nav{
+  height: 100px;
+}
+
+.Typed{
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+
+
+}
+
+.NameStyle{
+  margin-top: 150px;
+ text-align: center;
+  font-size: 30px;
+  font-family: 'Maven Pro', sans-serif;
+  
+}
+
+.icons{
+  margin-left: 10px;
+  letter-spacing: 100px;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+
+}
+h1 {
+  margin-left: 40px;
+}
+
+a{
+  color: black;
+}
+
+
+.buttoncols{
+  background-color: rgb(0, 0, 0);
+  margin-top: 20px;
+  color: #ffff;
+  padding: 10px;
+  border-radius: 20px;
+ 
+}
+
+.buttoncols:hover{
+  background-color: rgb(57, 73, 161);
+}
+
+.container1{
+  float: left;
+}
+.Maincontainer{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+img{
+  margin-top: 60px;
+  float: right;
+  margin-bottom: 40px;
+}
+
+.mottoes{
+  font-family: 'Caveat', cursive;
+  font-size: 26px;
+  margin-top: 10px;
+}
+
+.AllAbout{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 20px;
+
+}
+
+.fistPara{
+  font-family: 'Indie Flower', cursive;
+  font-size: 28px;
+  margin-top: 25px;
+}
+.secondPara{
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+.thirdPara{
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+
+.image{
+  background: url(./profile.jpg);
+  border-image: round;
+  background-size: contain;
+  height: 80%;
+  width: 90%;
+  margin: 60px;
+  background-repeat: no-repeat;
+}
+
+.hHead{
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  margin-top: 25px;
+}
+
+.fullprogress{
+  border: 1px solid black;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.progress{
+  width: 80;
+ background-color: #ffff;
+}
+.inlineStyle{
+  display: flex;
+  flex-direction: row;
+}
+
+.skillHead{
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.FooterArea{
+  
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  visibility: 70%;
+}
+
+.footeritem{
+  text-align: center;
+  margin-top: 28px;
+}
+.iconSize{
+  font-size: 35px;
+}
+
+.iconSize:hover{
+  color: blue;
+}
+
+.footterParagraph{
+  font-family: 'Cute Font', sans-serif;
+  font-size: 25px;
+}
+
+.footerBG{
+  background-color: rgb(209, 209, 209);
+ padding: 10px;
+
+
+}
+
+.LastChilds{
+  
+margin-left: 40%;
+font-family: 'Signika Negative', sans-serif;
+}
+
+.textcaption{
+  position: relative;
+
+}
+.paragraphAboutMyskill{
+  padding: 20px;
+  font-family: 'Crimson Text', serif;
+  font-size: 30px;
+}
